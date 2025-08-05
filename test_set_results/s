@@ -1,1 +1,4 @@
-extract the rar file to see the output of the model for test images as given in dataset
+extract the rar files to see the output of the model for test images as given in dataset.
+
+res.rar -- for roof top segementation
+res_superstructure.rar -- for roof superstructures on the roof tops
