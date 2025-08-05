@@ -40,16 +40,37 @@ I **did not implement** the solar potential calculation pipeline.
 
 - **Solar potential estimation (e.g., PV generation, azimuth/pitch inference, area-based output)**  
   - Although the original SolarNet+ repo includes `pvcode/cal_pv.py` to compute solar potential using segmentation outputs, I **did not run or customize** it.  
-  - This repo focuses purely on the segmentation tasks.
+  - That repo focuses on the calculation of the rooftop solar potential tasks.
 
 ---
 
+## How to use
+
+-- Training:
+  - Create a virtual environment and install the libraries in requirement.txt
+      - pip install requirement.txt
+
+  - clone this github repo (maintain file structure of this repo)
+  - to train the model, run
+      - python trainsolarnet.py
+  - best weights will be stored in the checkpoint folder with name 'best.pth'
+
+-- Prediction:
+  -  to predict the test images, run
+      - python predict_patch.py (here model used the best.pth(trained weights) generated during the training)
+  - outputs will be in folders:
+      - predictionroofsegemnt (for roof segments)
+      - predictionsuperstructure (for superstructures)
+      NOTE: these images are kind of binary images to view the images in proper viewable form
+            - to view the results
+                - go to folder 'test_set_results'
+                - extract the rar file to see the results for the prediction by the model
 
 Output maps include:
 
--Roof segmentation mask (2 classes)
+-Roof segmentation mask (7 classes which includes orientation of the roof )
 
--Roof superstructure mask (multiple classes or binary)
+-Roof superstructure mask (binary)
 
 ## Results & Highlights
 Successfully reproduced roof footprint and superstructure segmentation using SolarNet+ architecture.
