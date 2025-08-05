@@ -54,7 +54,7 @@ Output maps include:
 ## Results & Highlights
 Successfully reproduced roof footprint and superstructure segmentation using SolarNet+ architecture.
 
-Achieved segmentation IoU of 0.76 (comparable to original performance reported).
+Achieved segmentation **IoU of 0.76** (comparable to original performance reported).
 
 Learned how dataset alignment, mask channel structure, and class imbalance affect final results.
 
