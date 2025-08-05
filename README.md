@@ -47,9 +47,9 @@ I **did not implement** the solar potential calculation pipeline.
 
 Output maps include:
 
-Roof segmentation mask (2 classes)
+-Roof segmentation mask (2 classes)
 
-Roof superstructure mask (multiple classes or binary)
+-Roof superstructure mask (multiple classes or binary)
 
 ## Results & Highlights
 Successfully reproduced roof footprint and superstructure segmentation using SolarNet+ architecture.
@@ -61,14 +61,7 @@ Learned how dataset alignment, mask channel structure, and class imbalance affec
 This experience served as a stepping stone toward implementing a more robust HRNet + OCR pipeline later.
 
 ## References
-Li et al., “Deep learning‑based framework for city‑scale rooftop solar potential estimation by considering roof superstructures” (SolarNet+) (GitHub, Paper)
-
-Original SolarNet+ GitHub repository (architecture & solar estimation modules)
-
-## License & Acknowledgement
-Licensed under GNU GPL‑v3, consistent with the SolarNet+ project.
-
-All original datasets and code are subject to their original licensing terms as in the official SolarNet+ repository.
+Qingyu Li, Sebastian Krapf, Lichao Mou, Yilei Shi, Xiao Xiang Zhu. Deep learning-based framework for city-scale rooftop solar potential estimation by considering roof superstructures. Applied Energy,2024.
 
 ## Why This Matters
 Demonstrates ability to reproduce and adapt research-level code.
