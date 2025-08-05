@@ -82,7 +82,9 @@ Learned how dataset alignment, mask channel structure, and class imbalance affec
 This experience served as a stepping stone toward implementing a more robust HRNet + OCR pipeline later.
 
 ## References
-Qingyu Li, Sebastian Krapf, Lichao Mou, Yilei Shi, Xiao Xiang Zhu. Deep learning-based framework for city-scale rooftop solar potential estimation by considering roof superstructures. Applied Energy,2024.
+[1] Qingyu Li, Sebastian Krapf, Lichao Mou, Yilei Shi, Xiao Xiang Zhu. Deep learning-based framework for city-scale rooftop solar potential estimation by considering roof superstructures. Applied Energy,2024.doi: https://doi.org/10.1016/j.apenergy.2024.123839
+
+[2] Krapf, S.; Bogenrieder, L.; Netzler, F.; Balke, G.; Lienkamp, M. RID—Roof Information Dataset for Computer Vision-Based Photovoltaic Potential Assessment. Remote Sens. 2022, 14, 2299. https://doi.org/10.3390/rs14102299
 
 ## Why This Matters
 Demonstrates ability to reproduce and adapt research-level code.
